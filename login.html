@@ -2,44 +2,53 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="tag.css">
-	<title> Practising 1 without looking at the code</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> Dummy Website </title>
 </head>
 <body>
+	<header id="main-header"> 
+
+		<!-- here we want the background color of the header to go across the whole page while the container should have some spacing on the left and right to align it in the center that is why the class container in inside the main header id -->
+
+		<!-- we want the content of the h1 to have a container around it so it is inside main header id -->
+
+		<div class="container">
+		<h1> My Website </h1>
+	</div>
+	</header>
+	
+	<nav id="navbar"> 
+		<div class="container">
+			<ul>
+				<li> <a href=""> Home </a> </li>
+				<li> <a href=""> About</a> </li>
+				<li> <a href=""> Services</a> </li>
+				<li> <a href=""> Contact </a> </li>
+			</ul>		
+		</div>
+	</nav>
+
+	<section id="showcase">
+	<!-- here, we're using id for the nav bar and showcase because in a webpage there'll be only one nav bar and the id itself won't be repeated  -->
+
 	<div class="container">
-	<div class="box-1">
-	<h1> Portfolio </h1> 
-	<p> I haven't done any projects actually this is my first one, i'll keep learning and through time i'll have done a bunch of projects which would then boost up my portfolio </p>
-	</div> 
-</div>
+		<h1> In some ways, programming is like painting. You start with a blank canvas and certain basic raw materials. You use a combination of science, art, and craft to determine what to do with them. </h1>
+	</div>
+	</section>
 
-    <div class="container1">
-    <div class="categories">
-<!-- from now if u wanna put class or id just use div tag over the tag u want to select rather than puttinf it on the tag itself -->
+	<div class="container">
+	<section id="main">
+		<h1> Welcome </h1>
+		<p> “Live the Life of Your Dreams: Be brave enough to live the life of your dreams according to your vision and purpose instead of the expectations and opinions of others.”
+		― Roy T. Bennett, The Light in the Heart  </p>
+	</section>
+	<aside id="sidebar">
+		<p> The time that is spent in schools and colleges for education is called student life. It is the time to sow seeds of future life. The main duty of students is the acquired knowledge. Because has is the future wish and hope of the nation.  </p>
+	</aside>
+	</div>
 
-    	<h2> Categories </h2>
-    	<ul>
-    		<li><a href="#"> Name: Ankit </a> </li> 
-    		<li><a href="#"> Place: Mandikatar </a> </li> 
-    		<li><a href="#"> Occupation: Student </a> </li> 
-    		<li><a href="#"> Level: Bachelors </a> </li> 
-    	</ul>
-    </div>
-    <form class="my-form">
-    	<div class="form-group">
-    		<label> Name: </label>
-    		<input type="text" name="name">
-    	</div>
-    	<div class="form-group">
-    		<label> Email </label>
-    		<input type="text" name="email">
-    	</div>
-    	<div class="form-group">
-    		<label> Message: </label>
-    		<textarea name="message"> </textarea>
-    	</div>
-    	<input class="button" type="submit" value="submit" name="">
-    </form>
-</div>
+	<footer id="main-footer"> 
+		<p> Copyright &copy , 2021, My Website </p>
+	</footer>
 </body>
 </html>
