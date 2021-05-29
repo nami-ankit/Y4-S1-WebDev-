@@ -1,0 +1,106 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetice, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-header{
+	background-color: coral;
+	color: #fff;	
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+/*we want the list elemnts to be sideways instead of block so display is inline*/
+	display: inline;	
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#showcase{
+	background-image: url('image1.jpeg');
+	background-position: center center;
+	min-height: 300px;
+/*here we're using min height instead of height because it is not responsive, as the window gets smaller the content gets pushed down instead of the height growing with it*/
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+@media(max-width: 800px){
+/*if the window gets smaller the main id and sidebar id floats instead of being static so media query is used*/
+
+/*width 600px means that any style we put in here are only gping to be in effect if it is under 600px and we want to remove float from main and sidebar and wanna change their width to 100%*/   
+
+	#main{
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
+
+/*if float wasnt none that it wouldnt have been responsive */
+
+}
+
+
+
+
+
+
