@@ -1,4 +1,88 @@
 * {
 	margin: 0;
-	
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	line-height: 3em;
+	padding-bottom: 15px;
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff;
+	border: 2px red solid;
+}
+
+#navbar ul{
+	margin: 1.5px;
+	list-style: none;
+	word-spacing: 45px;
+}
+
+#navbar li{
+/*we want the list elemnts to be sideways instead of block so display is inline*/
+	display: inline;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+}
+
+.item-1{
+	background-color: black;
+	color: white;
+	height: 700px;
+	padding: 30px;
+}
+
+.item-2{
+	background-image: url(typing.jpg);
+	background-size: cover;
+	background-position: center;	
+	padding-left: 45px;
+
+}
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+
+.form-1{
+	color: white;
+	margin-bottom: 16px;
+	width: 600px;
+	background: transparent;
+	border: none;
+	border-bottom: 3px solid coral;
+	outline: none;
+	font-size: 18px;
+}
+
+form .submit{
+	background-color: coral;
+	border-color: transparent;
+	color: white;
+	font-weight: bold;
+}
+
+.main-info{
+	padding-top: auto;
+}
+
+.main-info h3{
+	margin: 65px;
+	word-spacing: 12px;
 }

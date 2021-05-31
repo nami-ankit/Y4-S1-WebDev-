@@ -1,3 +1,160 @@
-* {
+body {
+	margin: 0;
+	background-color: lightcoral;
+	padding: 0;
+	height: 150vh;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	line-height: 3em;
+	padding-bottom: 15px;
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff;
+	border: 2px red solid;
+}
+
+#navbar ul{
+	margin: 1.5px;
+	list-style: none;
+	word-spacing: 45px;
+}
+
+#navbar li{
+/*we want the list elemnts to be sideways instead of block so display is inline*/
+	display: inline;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+.resume{
+	margin: 0 auto;
+	background-color: white;
+	height: 1000px;
+	width: 800px;
+}
+
+.main-box{
+	padding: 30px;
+}
+
+.box-1{
+	height: 1000px;
+	width: 35%;
+	float: left;
+	background-color: #26252d;
+}
+
+.box-2{
+	padding: 20px;
+	float: left;
+	width: 60%;
+}
+
+h1{
+	color: #ceced1;
+	font-weight: 300;
+	font-family: Ariel, Hevetica, sans-serif;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+
+p{
+	padding-left: 10px;
+	color: #ceced1;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: Ariel, Hevetica, sans-serif;
+}
+
+.intro-1{
+	text-align: center;
+}
+
+.intro-1 h1{
+	font-weight: bold;
+	color: #26252d;
+	font-size: 40px;
+}
+
+.hr{
+	border: none;
+	height: 15px;
+	background-color: red;
+	margin: 20px;
+}
+
+.intro-1 p{
+	font-family: Ariel, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	margin-top: 13%;
+	color: #7d7d7d;
+}
+
+.main h1{
+	color: black;
+}
+
+.main p{
+	margin-top: 1px;
+	color: #7d7d7d;	
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+}
+
+.heading{
+	text-transform: uppercase;
+	font-weight: 400;
+	color: black;
 	margin: 0;
 }
+.content{
+	padding-top: 35px;
+}
+
+.content-2{
+	margin-top: 65px;
+}
+
+.para-1{
+	text-align: center;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: black;
+}
+
+.para-2{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: grey;
+}
+
+.heading{
+
+}
+
+.academic{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: grey;
+}
+
+
+
+
