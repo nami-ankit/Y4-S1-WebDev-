@@ -48,7 +48,7 @@ body{
 
 .top-report{
 	background-color: #ADD8E6;
-	margin: 12px;
+	/*margin: 12px;*/
 	font-size: 1.2em;
 	padding: 16px;
 	text-indent: 1em;
@@ -57,7 +57,7 @@ body{
 .mid-report{
 	background-color: lightslategrey;
  	color: white;
-	margin: 12px;
+	/*margin: 12px;*/
 	font-size: 1.2em;
 	padding: 16px;
 	text-indent: 1em;
@@ -66,51 +66,22 @@ body{
 .third-report{
 	background-color: #FAC6BF;
  	color: black;
-	margin: 12px;
+	/*margin: 12px;*/
 	font-size: 1.2em;
 	padding: 16px;
 	text-indent: 1em;
 }
 
-.contents{
+.down{
+	flex-basis: 100%;
+	padding: 40px;
+	color: white;
 	background-color: lightslategrey;
- 	color: white;
-	margin: 12px;
-	font-size: 1.2em;
-	padding: 16px;
-	text-indent: 1em;
+	/*margin-top: 5px;*/
 }
 
-.main-title{
-	text-align: center;
-}
-
-.col{
-	float: left;
-	width: 33.33%;
- 	padding: 5px;
-}
-
-.photo-grids{
-	display: flex;
-	flex-wrap: wrap;
-	gap: 1em;
-}
-
-.photo-girds > * {
-	flex:  1 1 10em;
-}
-
-.photo-grids::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-@media screen and (max-width: 500px) {
-  .photo-grids {
-    width: 100%;
-  }
+img{
+	margin-bottom: 2%;
 }
 
 
