@@ -1,0 +1,124 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetice, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0px;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	line-height: 3em;
+	padding-bottom: 15px;
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff;
+	border: 2px red solid;
+}
+
+#navbar ul{
+	margin: 1.5px;
+	list-style: none;
+	word-spacing: 150px;
+}
+
+#navbar li{
+/*we want the list elemnts to be sideways instead of block so display is inline*/
+	display: inline;
+
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+.main-title{
+	font-size: 40px;
+	font-weight: 100;
+	text-align: left;
+}
+
+.top-report{
+	background-color: #ADD8E6;
+	margin: 12px;
+	font-size: 1.2em;
+	padding: 16px;
+	text-indent: 1em;
+}
+
+.mid-report{
+	background-color: lightslategrey;
+ 	color: white;
+	margin: 12px;
+	font-size: 1.2em;
+	padding: 16px;
+	text-indent: 1em;
+}
+
+.third-report{
+	background-color: #FAC6BF;
+ 	color: black;
+	margin: 12px;
+	font-size: 1.2em;
+	padding: 16px;
+	text-indent: 1em;
+}
+
+.contents{
+	background-color: lightslategrey;
+ 	color: white;
+	margin: 12px;
+	font-size: 1.2em;
+	padding: 16px;
+	text-indent: 1em;
+}
+
+.main-title{
+	text-align: center;
+}
+
+.col{
+	float: left;
+	width: 33.33%;
+ 	padding: 5px;
+}
+
+.photo-grids{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+.photo-girds > * {
+	flex:  1 1 10em;
+}
+
+.photo-grids::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .photo-grids {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
