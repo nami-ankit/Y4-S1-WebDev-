@@ -140,11 +140,19 @@ p{
 	text-align: center;
 	margin-top: 10px;
 	text-transform: uppercase;
-	color: grey;
+	color: black;
 }
 
 .heading{
 
+}
+
+.para-3{
+	color: black;
+}
+
+.para-4{
+	color: black;
 }
 
 .academic{
@@ -152,7 +160,7 @@ p{
 	text-align: center;
 	margin-top: 10px;
 	text-transform: uppercase;
-	color: grey;
+	color: black;
 }
 
 

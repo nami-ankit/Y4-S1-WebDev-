@@ -35,7 +35,7 @@ body{
 }
 
 #navbar li{
-/*we want the list elemnts to be sideways instead of block so display is inline*/
+
 	display: inline;
 
 }
@@ -51,7 +51,6 @@ body{
 	background-image: url('image1.jpeg');
 	background-position: center center;
 	min-height: 300px;
-/*here we're using min height instead of height because it is not responsive, as the window gets smaller the content gets pushed down instead of the height growing with it*/
 	margin-bottom: 30px;
 	text-align: center;
 	padding: 100px;
@@ -91,9 +90,6 @@ body{
 }
 
 @media(max-width: 800px){
-/*if the window gets smaller the main id and sidebar id floats instead of being static so media query is used*/
-
-/*width 600px means that any style we put in here are only gping to be in effect if it is under 600px and we want to remove float from main and sidebar and wanna change their width to 100%*/   
 
 	#main{
 		width: 100%;
@@ -105,7 +101,6 @@ body{
 		float: none;
 	}
 
-/*if float wasnt none that it wouldnt have been responsive */
 
 }
 
